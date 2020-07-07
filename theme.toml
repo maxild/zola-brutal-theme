@@ -1,9 +1,9 @@
-name = "even"
-description = "A robust, elegant dark theme"
+name = "brutal"
+description = "A simple (brutal), but elegant light theme"
 license = "MIT"
-homepage = "https://github.com/getzola/even"
+homepage = "https://github.com/maxils/zola-brutal-theme"
 min_version = "0.11.0"
-demo = "https://zola-even.netlify.com"
+demo = "https://maxild.github.io"
 
 [extra]
 even_menu = [
@@ -14,6 +14,7 @@ even_menu = [
 ]
 even_title = "Even"
 
+# I will not  change this until something new is created...
 [author]
 name = "Vincent Prouillet"
 homepage = "https://www.vincentprouillet.com"
