@@ -11,28 +11,37 @@ main {
   }
 
   .read-more a {
-    color: $main-colour;
+    // BRUTAL START
+    // color: $main-colour;
+    // BRUTAL END
     font-family: $decoration-font-family;
     font-size: 1.1rem;
 
-    &:hover {
-      text-decoration: underline;
-    }
+    // BRUTAL START
+    // &:hover {
+    //  text-decoration: underline;
+    // }
+    // BRUTAL END
   }
 
   .about,
   .post {
     padding: 1.5rem 0;
 
-    .post__title {
-      font-family: $decoration-font-family;
+    // BRUTAL START
+    // .post__title {
+    //   font-family: $decoration-font-family;
+    //
+    //   a {
+    //     color: #34495e;
+    //   }
+    // }
+    // BRUTAL END
 
-      a {
-        color: #34495e;
-      }
-    }
-
-    h2, h3, h4, h5, h6 {
+    // BRUTAL START
+    // h2, h3, h4, h5, h6 {
+    // BRUTAL END
+    h1, h2, h3, h4, h5, h6 {
       font-weight: 400;
     }
 
@@ -40,16 +49,20 @@ main {
       padding: 3px 5px;
       border-radius: 4px;
       color: $code-colour;
-      background: $secondary-colour;
+      // BRUTAL START
+      // background: $secondary-colour;
+      // BRUTAL END
     }
 
-    p > a {
-      color: $main-colour;
-
-      &:hover {
-        border-bottom: 1px solid $main-colour;
-      }
-    }
+    // BRUTAL START
+    // p > a {
+    //   color: $main-colour;
+    //
+    //   &:hover {
+    //     border-bottom: 1px solid $main-colour;
+    //   }
+    // }
+    // BRUTAL END
 
     blockquote {
       margin: 2em 0;
@@ -117,7 +130,9 @@ main {
       font-size: 26px;
       font-weight: 400;
 
-      @include underline-from-center;
+      // BRUTAL START
+      // @include underline-from-center;
+      // BRUTAL END
     }
 
     &__category {
@@ -140,6 +155,9 @@ main {
     &__meta {
       font-size: 14px;
       color: #8a8a8a;
+      // BRUTAL START
+      margin-top: 5px;
+      // BRUTAL END
     }
 
     &__summary {
@@ -166,7 +184,9 @@ main {
     a {
       margin-right: 5px;
       color: $main-colour;
-      word-break: break-all;
+      // BRUTAL START
+      // word-break: break-all;
+      // BRUTAL END
     }
   }
 
@@ -189,28 +209,34 @@ main {
   }
 }
 
-.next, .previous {
-  font-weight: 600;
-  font-size: 20px;
-  transition: transform 0.3s ease-out;
-
-  &:hover {
-    color: $main-colour;
-  }
-}
+// BRUTAL START
+// .next, .previous {
+//   font-weight: 600;
+//   font-size: 20px;
+//   transition: transform 0.3s ease-out;
+//
+//   &:hover {
+//     color: $main-colour;
+//   }
+// }
+// BRUTAL END
 
 .next {
   float: right;
-  &:hover {
-    transform: translateX(4px);
-  }
+  // BRUTAL START
+  // &:hover {
+  //   transform: translateX(4px);
+  // }
+  // BRUTAL END
 }
 
 .previous {
   float: left;
-  &:hover {
-    transform: translateX(-4px);
-  }
+  // BRUTAL START
+  // &:hover {
+  //   transform: translateX(-4px);
+  // }
+  // BRUTAL END
 }
 
 .taxonomies {
@@ -220,8 +246,10 @@ main {
   &__title {
     display: inline-block;
     font-size: 18px;
-    color: $main-colour;
-    border-bottom: 2px solid $main-colour;
+    // BRUTAL START
+    // color: $main-colour;
+    // border-bottom: 2px solid $main-colour;
+    // BRUTAL END
   }
 
   &__items {
@@ -229,18 +257,24 @@ main {
 
     a {
       margin: 5px 10px;
-      word-wrap: break-word;
+      // BRUTAL START
+      // word-wrap: break-word;
+      // BRUTAL END
       position: relative;
 
-      &:hover {
-        color: $main-colour;
-      }
+      // BRUTAL START
+      // &:hover {
+      //   color: $main-colour;
+      // }
+      // BRUTAL END
 
       .count {
         position: relative;
         top: -8px;
         right: -2px;
+        // BRUTAL START
         color: $main-colour;
+        // BRUTAL END
         font-size: 12px;
       }
     }
@@ -250,31 +284,43 @@ main {
 .taxonomy {
   margin: 2em 0;
 
+  // BRUTAL START
+  h2 {
+    font-weight: 400;
+  }
+  // BRUTAL END
+
   &__item {
     padding: 3px 20px;
     border-left: 1px solid #cacaca;
     transition: 0.2s ease-out;
 
-    &:hover {
-      border-left: 3px solid $main-colour;
-      transform: translateX(4px);
-    }
+    // BRUTAL START
+    // &:hover {
+    //   border-left: 3px solid $main-colour;
+    //   transform: translateX(4px);
+    // }
+    // BRUTAL END
 
     &__time {
       margin-right: 10px;
       color: #8a8a8a;
     }
 
-    &__title a {
-      color: $main-colour;
-    }
+    // BRUTAL START
+    // &__title a {
+    //   color: $main-colour;
+    // }
+    // BRUTAL END
   }
 }
 
 .about {
   p > a {
     color: $main-colour;
-    word-break: break-all;
+    // BRUTAL START
+    // word-break: break-all;
+    // BRUTAL END
 
     &:hover {
       border-bottom: 1px solid $main-colour;

@@ -1,7 +1,7 @@
 name = "brutal"
 description = "A simple (brutal), but elegant light theme"
 license = "MIT"
-homepage = "https://github.com/maxils/zola-brutal-theme"
+homepage = "https://github.com/maxild/zola-brutal-theme"
 min_version = "0.11.0"
 demo = "https://maxild.github.io"
 

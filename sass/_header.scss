@@ -4,12 +4,20 @@
   justify-content: space-between;
 
   .logo {
-    font-family: Chancery, cursive, LiSu, sans-serif;
+    // BRUTAL START
+    // font-family: Chancery, cursive, LiSu, sans-serif;
+    // BRUTAL END
     font-weight: 400;
 
     a {
-      color: #34495e;
-      font-size: 48px;
+      // BRUTAL START
+      // color: #34495e;
+      // BRUTAL END
+      font-size: 42px;
+      // BRUTAL START
+      color: black;
+      text-decoration: none;
+      // BRUTAL END
     }
   }
 
@@ -24,12 +32,14 @@
       li {
         display: inline-block;
         margin-right: 5px;
-        @include underline-from-center;
-
-        a {
-          color: #34495e;
-          font-size: 18px;
-        }
+        // BRUTAL START
+        // @include underline-from-center;
+        //
+        // a {
+        //   color: #34495e;
+        //   font-size: 18px;
+        // }
+        // BRUTAL END
       }
     }
   }

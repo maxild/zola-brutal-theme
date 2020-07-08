@@ -40,7 +40,9 @@
     position: relative;
     transition: background 0.5s;
 
-    @include mobile-menu-icon();
+    // BRUTAL START
+    // @include mobile-menu-icon();
+    // BRUTAL END
   }
 }
 
